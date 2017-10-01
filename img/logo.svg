@@ -1,0 +1,82 @@
+<?xml version="1.0"
+      standalone="no"?>
+<?xml-stylesheet type="text/css"
+                 href="css/logo.css"?>
+
+<!DOCTYPE svg
+          PUBLIC
+          "-//W3C//DTD SVG 1.1//EN"
+          "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xml:space="preserve"
+     width="100%"
+     height="100%"
+     viewBox="0 0 100 30">
+    <style>
+        #horizontal-lines { stroke: #474D5D }
+        #rune-lines { stroke: #F0F0F0 }
+        #writer-lines { stroke: #FF4422 }
+        .lines { stroke-width: 1.2; stroke-linecap: round }
+    </style>
+    <symbol>
+        <g id="line">
+            <line x1="0" y1="0" x2="96" y2="0"/>
+        </g>
+        <g id="rune-e">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+            <line x1="0" y1="18" x2="8" y2="12"/>
+            <line x1="0" y1="12" x2="8" y2="6"/>
+            <line x1="0" y1="6" x2="8" y2="0"/>
+        </g>
+        <g id="rune-i">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+        </g>
+        <g id="rune-n">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+            <line x1="0" y1="6" x2="8" y2="9"/>
+            <line x1="0" y1="9" x2="8" y2="12"/>
+            <line x1="8" y1="0" x2="8" y2="18"/>
+        </g>
+        <g id="rune-r">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+            <line x1="0" y1="3" x2="4" y2="0"/>
+        </g>
+        <g id="rune-t">
+            <line x1="0" y1="0" x2="4" y2="3"/>
+            <line x1="4" y1="0" x2="4" y2="18"/>
+            <line x1="4" y1="3" x2="8" y2="0"/>
+        </g>
+        <g id="rune-u">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+            <line x1="0" y1="18" x2="8" y2="12"/>
+            <line x1="8" y1="0" x2="8" y2="18"/>
+        </g>
+        <g id="rune-w">
+            <line x1="0" y1="0" x2="0" y2="18"/>
+            <line x1="0" y1="18" x2="8" y2="12"/>
+            <line x1="0" y1="12" x2="8" y2="18"/>
+            <line x1="8" y1="0" x2="8" y2="18"/>
+        </g>
+    </symbol>
+    <g id="horizontal-lines" class="lines">
+        <use x="2" y="2" xlink:href="#line"/>
+        <use x="2" y="28" xlink:href="#line"/>
+    </g>
+    <g id="rune-lines" class="lines">
+        <use x="5" y="6" xlink:href="#rune-r"/>
+        <use x="13" y="6" xlink:href="#rune-u"/>
+        <use x="24" y="6" xlink:href="#rune-n"/>
+        <use x="35" y="6" xlink:href="#rune-e"/>
+    </g>
+    <g id="writer-lines" class="lines">
+        <use x="46" y="6" xlink:href="#rune-w"/>
+        <use x="58" y="6" xlink:href="#rune-r"/>
+        <use x="65" y="6" xlink:href="#rune-i"/>
+        <use x="68" y="6" xlink:href="#rune-t"/>
+        <use x="79" y="6" xlink:href="#rune-e"/>
+        <use x="91" y="6" xlink:href="#rune-r"/>
+    </g>
+</svg>
